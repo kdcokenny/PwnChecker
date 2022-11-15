@@ -11,7 +11,7 @@ PwnChecker helps you keep your data safe by checking if your emails and/or domai
 Download files and open "config.py". Input all data that contains empty strings. Once the information has been entered, select the pwnchecker folder in the terminal and run ```nohup python3 main.py &```. This will run PwnChecker in the background, just make sure to re-run the prgram again whenever the machine is restarted.
 
 ## Adding/Removing Domains
-Add a new line with the domain to check in the file, "domains_to_check.txt".
+Add a new line with the domain to check in the file, "domains_to_check.txt". If you want to remove a domain, simply remove the line containing the domain.
 
 ## Adding/Removing Emails
-Add a new line with the email to check in the file, "emails_to_check.txt".
+Add a new line with the email to check in the file, "emails_to_check.txt". If you want to remove an email, simply remove the line containing the email.
